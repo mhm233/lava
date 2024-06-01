@@ -6,7 +6,7 @@ on:
       - master
 
   schedule:
-    - cron: '*/20 * * * *' # Runs every 20 minutes
+    - cron: '*/5 * * * *' # Runs every 20 minutes
 
   workflow_dispatch: # Allows manual triggering from the GitHub UI
 
@@ -14,8 +14,8 @@ permissions:
   contents: write # Grants permissions to write to the repo
 
 env:
-  GIT_USER_EMAIL: rxmxdhxni@gmail.com
-  GIT_USER_NAME: dante4rt
+  GIT_USER_EMAIL: guzebadboo@gmail.com
+  GIT_USER_NAME: Rat3dRR
 
 jobs:
   ethereum_auto_commit:
